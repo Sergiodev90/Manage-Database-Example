@@ -1,0 +1,21 @@
+{
+    "name": "sergio/bases-datos-php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "sergio noriega cantillo",
+            "email": "sergionoriegacantillo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"App/",
+            "Database\\":"Database/",
+            "Router\\":"Router/"
+        }
+    },
+    
+    "require": {
+        "symfony/var-dumper": "^6.4"
+    }
+}
